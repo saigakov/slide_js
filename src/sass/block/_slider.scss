@@ -1,0 +1,24 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__wrap {
+        width: 750px;
+        height: 527px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+
+}
+
